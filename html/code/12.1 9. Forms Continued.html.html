@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>8. Forms Continued</title>
+  </head>
+  <body>
+
+    <!--  Reference Links-->
+    <!-- http://www.w3schools.com/TAGs/att_input_type.asp -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+
+    <!--Actions: Where to send data -->
+    <!--Method: get/post HTTP method -->
+
+    <h1>Log In</h1>
+    <h2>Enter your Password and Email</h2>
+
+    <!-- Here we demonstrate a couple ways to use labels-->
+    <!-- Nested -->
+    <!--  for and id connection-->
+
+    <form action="http://www.google.com" method="get">
+
+      <label>
+         EMAIL:
+         <input type="email" name="useremail" placeholder="Email Here">
+      </label>
+
+
+      <label >
+        PASSWORD:
+      <input type="password" name="password" placeholder="Password">
+      </label>
+
+      <!-- Validation is done more on the backend -->
+      <!--  Use the attribute: required to require input-->
+
+      <label for="userinput">TEXT:</label>
+      <input type="text" id="userinput"name="input"
+          placeholder="Enter Text Here" required>
+      <input type="submit" >
+
+    </form>
+
+   <form>
+     <fieldset>
+        <legend>1st field set:</legend>
+        Field one:<br>
+        <input type="text"><br>
+        Field two:<br>
+        <input type="text"><br>
+     </fieldset><br>
+
+  Title: Fullstack Course
+     <fieldset>
+       <legend>2nd field set:</legend>
+       Field three:<br>
+       <input type="text"><br>
+       Field four:<br>
+       <input type="text"><br>
+     </fieldset><br>
+     <input type="submit" value="Submit">
+   </form>

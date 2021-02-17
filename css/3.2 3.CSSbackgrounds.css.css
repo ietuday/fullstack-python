@@ -1,0 +1,36 @@
+body{
+  /*background: gray;*/
+/*  check out https://www.w3schools.com/csSref/css3_pr_background.asp
+          Go through this website to see many other options     */
+
+
+
+  background: url(http://www.survoldefrance.fr/photos/highdef/6/6439.jpg);
+  background-repeat: no-repeat;  /* repeat-y vs repeat-x  */
+  background-attachment: fixed;
+
+}
+
+div{              /* Div Selector applies 4 attributes */
+  background: DarkCyan;
+  border: green;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+
+  }
+
+p{
+  color: green;
+}
+span{                      /* Span selector applies 2 attributes */
+  background: red;
+  color: black;
+}
+
+
+/*background-image Background image to use
+ background-color Background color to apply
+ background-position Background image's position
+ background-size Background image's size
+ background-repeat How to repeat background image
+ background-origin How the background is positioned */

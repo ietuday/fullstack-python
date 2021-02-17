@@ -1,0 +1,15 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity*/
+/*https://designshack.net/articles/css/what-the-heck-is-css-specificity/*/
+
+li{                               /*type selectors*/
+  color: red;
+}
+
+.LowList{                        /*class selectors*/
+  color: green;
+}
+
+#blue{                             /*id selector is the strongest*/
+  border: 4px solid purple;
+  color : blue;
+}

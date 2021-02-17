@@ -1,0 +1,30 @@
+/*
+General Format  is:
+
+Selected Tag {
+  property: value;
+}
+
+*/
+
+/*Colors can be names, or codes*/
+/* try changing color to p to { color: #006600; } */
+/* remember, you can redefine the code by redefining after main css */
+
+h1{
+    color: Green;
+}
+
+li {
+  color: rgb(0,200,0);
+}
+
+p{
+  color: #000000;
+}
+
+
+
+h4{
+  color: rgba(13,90,140,0.5)
+}

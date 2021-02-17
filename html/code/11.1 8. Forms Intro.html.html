@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>7. Forms Intro</title>
+  </head>
+  <body>
+    <!--  You can specify what input you want, whether its email, a password-->
+    <!-- or even just a username-->
+    <!-- http://www.w3schools.com/TAGs/att_input_type.asp
+        https://www.w3schools.com/html/html_forms.asp -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+
+    <!--Actions: where we send the data -->
+    <!--Method: get/post HTTP method -->
+
+
+
+
+  <form>
+    <h1> Test Box to try changing lengths </h1>
+    <!-- here is a sample text box for you to play with width.  The default
+    width is 20 but you can change it within here-->
+
+
+
+    <input type="text" size="53">
+
+    <h1>Log In</h1>
+    <h2>Please Input your Password and Email</h2>
+
+    <input type="email" name="useremail" placeholder="Type Email Here">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit"  value="button name">
+
+    <h1>Try Selecting a Color</h1>
+    <h2>Click the button below to select a color.</h2>
+
+    <input type="color" name="favcolor" value="#ff0000">
+    <h2>Enter Your Text!</h2>
+    <input type="text" name="" placeholder="Text goes here">
+    <h2>Upload an Image</h2>  <!-- you can specify videos, images, specific
+                                  file extensions like pdf-->
+    <input type="file" accept="image/*" title="Only images are allowed">
+     <h2>Multiple files</h2>
+    <input type="file" name="fileSubmission" id="fileSubmission" multiple>
+    <h2>Different file types .png .gif .jpeg</h2>
+    <input type="file" name="fileSubmission" accept="image/x-png,image/gif,image/jpeg" />
+
+
+  </form>
+
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>header</h1>
+    <p>
+
+      For this section, you will use the javascript file to change the size of the header, but first we need to learn how to use JavaScript to grab the HTML objects from the 'Document Object Model'.
+
+    </p>
+    <p>Here are some important document attributes:</p>
+    <ul>
+      <li>document.URL    -- the URL of the website</li>
+      <li>document.body   -- everything inside the body</li>
+      <li>document.head   -- everything in the head of the page</li>
+      <li>document.links  -- all the links on the page</li>
+    </ul>
+    <p>Methods to grab HTML elements:</p>
+    <ul>
+      <li>document.getElementById() -- Returns the element with the id</li>
+      <li>document.getElementsByClassName() -- Returns list of all elements with the class name</li>
+      <li>document.getElementsByTagName() -- Returns list of all elements with the tag</li>
+      <li>document.querySelector() -- Returns the first object matching the CSS style selector</li>
+      <li>document.querySelectorAll() -- Returns all objects matching the CSS style selector</li>
+    </ul>
+    <p>
+      The querySelector() accept CSS style selector, and with # or . if ids or classes of the element needed
+      to be clear.
+      The difference between querySelector() and querySelectorAll() is that
+      querySelectorAll() will return a list of all matches, querySelector() just
+      returns the first match.
+    </p>
+
+  </body>
+  <script src="Part1_Color_Changer.js">
+
+  </script>
+</html>
